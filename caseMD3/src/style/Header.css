@@ -1,0 +1,102 @@
+.header {
+    display: flex;
+    border-bottom: 1px solid lightgray;
+    height: 100px;
+}
+
+.logo {
+    height: 100%;
+    text-align: center;
+    width: 10%;
+    cursor: pointer;
+}
+
+
+.img-logo, img {
+    width: 130px;
+    height: 100%;
+}
+
+.other {
+    height: 100%;
+    width: 30%;
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.icon-user, #user {
+    margin-top: 15px;
+    width: 25px;
+    height: 25px;
+    cursor: pointer;
+}
+
+.banner {
+    height: 100%;
+    width: 60%;
+    display: flex;
+    justify-content: space-around;
+}
+
+#img-banner {
+    width: 400px;
+    height: 100%;
+}
+
+#banner {
+    margin-top: 15px;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    font-weight: bold;
+    color: black;
+}
+
+.icon-cart {
+    margin-top: 15px;
+    width: 60px;
+    height: 60px;
+    cursor: pointer;
+}
+
+.search {
+    display: flex;
+    align-items: center;
+    height: 10vh;
+}
+
+.search form {
+    display: flex;
+}
+
+.search input {
+    border: 1px solid #ddd;
+    outline: none;
+    border-radius: 5px;
+    margin-right: 10px;
+    margin-top: 10px;
+    font-size: 16px;
+    height: 40px;
+    padding: 10px;
+}
+
+.search input:hover {
+    border: 1px solid #6C7B8B;
+}
+
+.search button {
+    background-color: #ddd;
+    border: none;
+    border-radius: 5px;
+    height: 40px;
+    width: 40px;
+    color: #333;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 10px;
+    text-align: center;
+}
+
+.search button:hover {
+    background-color: #6C7B8B;
+}
+
